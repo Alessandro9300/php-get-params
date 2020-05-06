@@ -18,23 +18,19 @@
        $dotMail = strpos($mail,".");
        $dotChioggia = strpos($mail,"@");
 
-
-
        ?>
 
 
       <h1>
 
         <?php
-        // echo $dotMail . " ";
-        // echo $dotChioggia;
+
         if($dotMail && $dotChioggia){
           echo "Ok";
         } else {
           echo "Ko";
         }
-
-
+        
         ?>
 
       </h1>
